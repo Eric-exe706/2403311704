@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const DEMO_USER = {
     username: 'eric@gmail.com',
-    password: 'passworderic123'
+    password: 'password123'
 };
 
 app.post('/api/login', (req, res) => {
